@@ -122,3 +122,81 @@ header {
 .speaker-card p {
     color: gray;
 }
+
+.pricing-section {
+    max-width: 1140px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.pricing-section h2 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #0F172A;
+    margin-bottom: 10px;
+}
+
+.pricing-section>p {
+    font-size: 18px;
+    color: #6B7280;
+    margin-bottom: 50px;
+}
+
+.pricing-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.pricing-card {
+    flex: 1;
+    padding: 32px;
+    background: #fff;
+    border: 1px solid #E5E7EB;
+    border-radius: 16px;
+    text-align: left;
+}
+
+.pricing-card h5 {
+    font-size: 14px;
+    color: #6B7280;
+    margin-bottom: 10px;
+}
+
+.pricing-card h2 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 8px;
+}
+
+.pricing-card p {
+    font-size: 16px;
+    color: #6B7280;
+    margin-bottom: 24px;
+}
+
+.pricing-card ul {
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+
+.pricing-card ul li {
+    margin-bottom: 14px;
+    color: #4B5563;
+}
+
+.pricing-card button {
+    width: 100%;
+}
+
+.active {
+    background: #111827;
+}
+
+.active h5,
+.active h2,
+.active p,
+.active ul li {
+    color: #fff;
+}
