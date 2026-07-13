@@ -67,22 +67,58 @@ header {
 }
 
 .hero h1 {
+    font-weight: 700;
+    font-display: block;
     font-family: "Inter", sans-serif;
     font-style: normal;
     color: #FFFFFF;
-    font-size: 80px;
 }
 
 .hero-pera {
-    font-family: "Inter", sans-serif;
+    font-display: block;
+    font-weight: 400;
     font-style: normal;
-    font-size: 48px;
     margin-bottom: 40px;
     line-height: 20px;
     color: #FFFFFF;
-    margin: 20px 30px 200px;
+    margin: 20px 40px 200px;
 }
 
 .common-btn:hover {
     background-color: #3730A3;
+}
+
+.speaker-section {
+    max-width: 1140px;
+    margin: 100px auto;
+}
+
+.speaker-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.speaker-card {
+    background: #fff;
+    border-radius: 12px;
+}
+
+.speaker-card img {
+    width: 100%;
+    display: block;
+}
+
+.speaker-card h5 {
+    margin-top: 15px;
+    color: #2563eb;
+    text-transform: uppercase;
+}
+
+.speaker-card h4 {
+    margin: 10px 0;
+}
+
+.speaker-card p {
+    color: gray;
 }
