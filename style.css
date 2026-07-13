@@ -1,52 +1,88 @@
-    * {
-        margin: 0;
-        padding: 0;
-        font-family: "Arimo", sans-serif;
-    }
-    
-    header {
-        margin: auto;
-    }
-    
-    .Navbar {
-        background-color: #FFFFFF;
-        display: flex;
-        justify-content: space-between;
-        max-width: 1200px;
-        margin: auto;
-        padding: 8px;
-        align-items: center;
-    }
-    
-    .img-c {
-        margin-left: 6px;
-    }
-    
-    .logo {
-        display: flex;
-        color: #0D1B2A;
-    }
-    
-    .nav-content {
-        display: flex;
-        justify-content: space-between;
-        gap: 24px;
-        color: 575757;
-        font-size: 18px;
-    }
-    
-    .nav-content a {
-        text-decoration: none;
-        color: #575757;
-        align-items: center;
-    }
-    
-    .common-btn {
-        background-color: #1D4ED8;
-        color: #FFFFFF;
-        border-radius: 6px;
-        padding: 6px 4px;
-        font-weight: bold;
-        font-size: 18px;
-        border: none;
-    }
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Arimo", sans-serif;
+    font-family: "Open Sans", sans-serif;
+}
+
+header {
+    margin: auto;
+}
+
+.Navbar {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    padding: 8px;
+    align-items: center;
+}
+
+.img-c {
+    margin-left: 6px;
+}
+
+.logo {
+    display: flex;
+    color: #0D1B2A;
+}
+
+.nav-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    color: 575757;
+    font-size: 18px;
+}
+
+.nav-content a {
+    text-decoration: none;
+    color: #575757;
+    align-items: center;
+}
+
+.common-btn {
+    background-color: #1D4ED8;
+    color: #FFFFFF;
+    border-radius: 6px;
+    padding: 6px 4px;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+.hero {
+    background: url(./assets/banner.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero h1 {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    color: #FFFFFF;
+    font-size: 80px;
+}
+
+.hero-pera {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    fontfont-size: 48px;
+    margin-bottom: 40px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin: 20px 30px 200px;
+}
+
+.common-btn:hover {
+    background-color: #3730A3;
+}
